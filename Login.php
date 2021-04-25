@@ -113,7 +113,7 @@ body{
     <body >
 	
 	<div class="container-fluid container_decor">
-	<h2 id="log"> GCEB HOSTEL E-MANAGEMENT PORTAL</h2>
+	<h2 id="log"> Login</h2>
 	</div>
 	<form method="post" action = "<?php 
          echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -125,7 +125,7 @@ body{
 	<div class="panel-body">
 	<div class="form-group">
 	<i class='fas fa-user-circle' style='font-size:15px'></i>
-	  <label for="register number">College Register Number</label>
+	  <label for="register number"> Register Number</label>
 	  <input type="text" name="register_num" class="form-control input-lg" placeholder="Register Number" id="reg_no" required="required">
 	  <span class = "error">* <?php echo $RegErr;?></span>
 	</div>
@@ -144,8 +144,8 @@ body{
 	</div>
 	</form>
 	<div class="footer">
-<p>Goverment College of engineering,Bargur</p>
-<p>Copyright © 2020, Government College of Engineering, Bargur.</p>
+<p>Ramalingasamy M K</p>
+<p>Copyright © 2020, Ramalingasamy M K</p>
 </div>
     </body>
 </html>
